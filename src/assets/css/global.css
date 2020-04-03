@@ -4,3 +4,22 @@ html, body,
     margin: 0;
     padding: 0;
 }
+.el-breadcrumb {
+    /* 这个李card太近了 */
+    margin-bottom: 15px;    
+    font-size: 12px;
+}
+
+.el-card {                              
+                            /* 增加自己样式的权重，否则看不出效果，被默认的替换了 */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15) !important;
+}
+
+.el-table {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.el-pagination {
+    margin-top: 15px;
+}
