@@ -3,6 +3,8 @@ html, body,
     height: 100%;
     margin: 0;
     padding: 0;
+    /* 最小宽度强制这么宽ß，防止弄小了，有些图标比如权限->箭头跑到下一行 */
+    min-width: 1366px;
 }
 .el-breadcrumb {
     /* 这个李card太近了 */
