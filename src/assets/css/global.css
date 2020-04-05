@@ -25,3 +25,8 @@ html, body,
 .el-pagination {
     margin-top: 15px;
 }
+
+.el-cascader-panel {
+    /* 展开太长 */
+    height: 200px; 
+}
