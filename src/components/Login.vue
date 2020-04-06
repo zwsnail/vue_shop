@@ -67,7 +67,7 @@ export default {
 
         //result里面由axios封装回了6个值，只需要data一个，所以解构出来重命名res, 只看这部分而已
         const { data: res } = await this.$http.post("login", this.loginForm);
-        console.log(res); //打印出来发现res里面还有三部分           "登录失败"--之前自己写，但弹幕提醒最好用后端传过来的
+        // console.log(res); //打印出来发现res里面还有三部分           "登录失败"--之前自己写，但弹幕提醒最好用后端传过来的
         if (res.meta.status !== 200) return this.$message.error(res.meta.msg);
         this.$message.success(res.meta.msg);
         

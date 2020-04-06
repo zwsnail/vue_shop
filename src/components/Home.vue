@@ -72,7 +72,7 @@ export default {
       //这个是在api里面查到的
       const { data: res } = await this.$http.get("menus");
       if (res.meta.status !== 200) return this.$message.error(res.meta.msg);
-      console.log(res);
+      // console.log(res);
       this.menulist = res.data;
     },
     toggleCollapse () {
