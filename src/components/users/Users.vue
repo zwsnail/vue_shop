@@ -170,7 +170,7 @@ export default {
     return {
       // 把method里面的参数写到这里是好习惯
       queryInfo: {
-        query: "",
+        query: "",// 查询参数可以为空 
         pagenum: 1, //当前页数
         pagesize: 2 //当前每页显示多少条
       },
