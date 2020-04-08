@@ -30,3 +30,16 @@ html, body,
     /* 展开太长 */
     height: 200px; 
 }
+
+.el-step {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px !important; 
+}
+
+/* 富文本框的class，用检查查看到的！ */
+.ql-editor {
+    min-height: 300px;
+}
