@@ -13,6 +13,7 @@ import GoodsList from '../components/goods/List.vue'
 import AddGoods from '../components/goods/Add.vue'
 import EditGoods from '../components/goods/Edit.vue'
 import Orders from '../components/orders/Order.vue'
+import Reports from '../components/reports/Report.vue'
 
 
 Vue.use(VueRouter)
@@ -38,7 +39,8 @@ const router = new VueRouter({
       {path: '/goods', component: GoodsList},
       {path: '/goods/add', component: AddGoods},
       {path: '/goods/edit/:id', component: EditGoods},
-      {path: '/orders', component: Orders}
+      {path: '/orders', component: Orders},
+      {path: '/reports', component: Reports}
     ]}
   ]
 })
